@@ -18,10 +18,7 @@ const Numbers = () => {
        it any props needed by the child component*/
        numberState.map((num, index) => {
          return <NumberButton num={num} key={index}/>         
-       }
-
-       )
-       }
+       })}
     </div>
   );
 };
