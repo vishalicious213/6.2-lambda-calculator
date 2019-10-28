@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .container {
     background-color: #c00025;
     width: 100%;
@@ -6,8 +10,21 @@
     border: 2px solid grey;
     padding-bottom: 25px;
 }
+
+.logo-container {
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .display {
-    margin-top: 25px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
     height: 100px;
     width: 450px;
     border-radius: 50px;
@@ -19,4 +36,57 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
-  }
+}
+
+button {
+    color: white;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    font-size: 2.25rem;
+    /* border: 1px solid #993333; */
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.operatorButton {
+    background-color: #006699;
+}
+
+.specialButton {
+    background-color: #336699;
+}
+
+.numberButton {
+    background-color: #003366;
+}
+
+.buttonPanel {
+    display: flex;
+    width: 500px;
+}
+
+.specNumsDiv {
+    width: 73%;
+}
+
+.operatorsDiv {
+    width: 27%;
+}
+
+.numbersButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.specialsButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.operatorsButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
